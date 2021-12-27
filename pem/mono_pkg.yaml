@@ -1,0 +1,9 @@
+dart:
+  #- stable # enable when 2.12 has shipped
+  - dev
+stages:
+  - analyze:
+      - analyze
+      - format
+  - tests:
+      - test

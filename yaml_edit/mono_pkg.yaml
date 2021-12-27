@@ -1,0 +1,10 @@
+dart:
+  - stable
+  - dev
+
+stages:
+  - analyze:
+      - analyze
+      - format
+  - tests:
+      - test

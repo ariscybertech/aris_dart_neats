@@ -1,0 +1,8 @@
+dart:
+  - beta
+stages:
+  - analyze:
+      - analyze
+      - format
+  - tests:
+      - test
